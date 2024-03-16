@@ -2,7 +2,7 @@
 
 ## Project Development Progress: Inventory Separation Module
 
-🧱 Development progress on the "Fyennyi Gamemode Survival" project (formerly "NewLand Games") continues unabated. While we occasionally discuss what the project will look like in the future, it's important to report on the progress made and the future prospects of the inventory separation system (AdvancedInventory module).
+Development progress on the "Fyennyi Gamemode Survival" project (formerly "NewLand Games") continues unabated. While we occasionally discuss what the project will look like in the future, it's important to report on the progress made and the future prospects of the inventory separation system (AdvancedInventory module).
 
 ### Overview
 
