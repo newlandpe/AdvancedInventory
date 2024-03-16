@@ -14,12 +14,12 @@ This plugin introduces a crucial mechanic for fair gameplay survival, as we've i
 ### Features Implemented:
 
 1. **Configuration File:** A configuration file has been developed, allowing you to customize the following properties:
-- Full module disablement, if necessary.
-- Separation of main inventory content.
-- Separation of armor inventory area.
-- Separation of offhand.
-- Separation of applied player effects.
-- Forced clearing of each inventory part, if necessary.
+ - Full module disablement, if necessary.
+ - Separation of main inventory content.
+ - Separation of armor inventory area.
+ - Separation of offhand.
+ - Separation of applied player effects.
+ - Forced clearing of each inventory part, if necessary.
 
 ### Licensing
 
