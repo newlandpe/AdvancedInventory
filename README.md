@@ -1,16 +1,13 @@
-# AdvancedInventory Plugin for CoffeeAPI
+# AdvancedInventory Plugin
 
 ## Description
-AdvancedInventory is a module within the CoffeeAPI system designed to handle inventory splitting mechanics in Minecraft: Bedrock Edition servers. It allows for seamless transition between creative/spectator mode and survival/adventure mode while preserving inventory contents.
-
-## Progress
-Currently, the development progress focuses on inventory splitting mechanics.
+🧱 AdvancedInventory is a plugin designed to handle inventory splitting mechanics in Minecraft: Bedrock Edition servers. It allows for seamless transition between creative/spectator mode and survival/adventure mode while preserving inventory contents.
 
 ## Features
 - Preservation of survival/adventure inventory when switching to creative/spectator mode.
 - Preservation of creative/spectator inventory when switching to survival/adventure mode.
-- Configuration file to customize module behavior:
-  - Enable/disable the module.
+- Configuration file to customize plugin behavior:
+  - Enable/disable the plugin.
   - Split main inventory contents.
   - Split armor inventory section.
   - Split off-hand inventory.
@@ -28,7 +25,3 @@ Contributions to this project are welcome! Feel free to fork this repository, ma
 
 ### Support
 If you encounter any issues or have questions about the AdvancedInventory plugin, please open an issue on the [Issues](https://github.com/newlandpe/AdvancedInventory/issues) page of this repository.
-
----
-
-© 2024 Fyennyi Gamemode Survival Team. All rights reserved.
