@@ -1,5 +1,7 @@
 # AdvancedInventory
 
+[![Poggit CI](https://poggit.pmmp.io/ci.shield/newlandpe/LanguageManager/LanguageManager)](https://poggit.pmmp.io/ci/newlandpe/AdvancedInventory/AdvancedInventory)
+
 AdvancedInventory is a plugin designed to handle inventory splitting mechanics in Minecraft: Bedrock Edition servers. It allows for seamless transition between creative/spectator mode and survival/adventure mode while preserving inventory contents.
 
 ## Features
@@ -24,4 +26,3 @@ If you encounter any issues or have questions about the AdvancedInventory plugin
 ## License
 
 This project is licensed under the CSSM Unlimited License v2 (CSSM-ULv2). See the [LICENSE](LICENSE) file for details.
-
