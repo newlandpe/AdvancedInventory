@@ -1,4 +1,4 @@
-# AdvancedInventory Plugin
+# AdvancedInventory
 
 AdvancedInventory is a plugin designed to handle inventory splitting mechanics in Minecraft: Bedrock Edition servers. It allows for seamless transition between creative/spectator mode and survival/adventure mode while preserving inventory contents.
 
