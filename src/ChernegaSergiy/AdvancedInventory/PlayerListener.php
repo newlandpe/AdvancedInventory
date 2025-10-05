@@ -14,7 +14,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerGameModeChangeEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
-use pocketmine\event\player\PlayerTeleportEvent;
+use pocketmine\event\entity\EntityTeleportEvent;
 use pocketmine\player\Player;
 
 class PlayerListener implements Listener {
@@ -45,14 +45,18 @@ class PlayerListener implements Listener {
 
         // Only trigger swap if we are in a world that uses gamemode separation
         if (in_array($worldName, $enabledWorlds, true) && $useGamemodeSeparation) {
-            $fromGamemode = strtolower($event->getOldGameMode()->getEnglishName());
+            $fromGamemode = strtolower($player->getGamemode()->getEnglishName());
             $toGamemode = strtolower($event->getNewGameMode()->getEnglishName());
             $this->swapAllData($player, $worldName, $fromGamemode, $worldName, $toGamemode);
         }
     }
 
-    public function onPlayerTeleport(PlayerTeleportEvent $event): void {
-        $player = $event->getPlayer();
+    public function onPlayerTeleport(EntityTeleportEvent $event): void {
+        $entity = $event->getEntity();
+        if (!($entity instanceof Player)) {
+            return;
+        }
+        $player = $entity;
         $fromWorld = $event->getOrigin()->getWorld()->getFolderName();
         $toWorld = $event->getTarget()->getWorld()->getFolderName();
 

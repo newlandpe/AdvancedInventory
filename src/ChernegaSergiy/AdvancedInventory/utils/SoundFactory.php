@@ -31,9 +31,9 @@ final class SoundFactory {
             "ender_chest_close" => new EnderChestCloseSound(),
             "explode" => new ExplodeSound(),
             "ghast_shoot" => new GhastShootSound(),
-            "note" => new NoteSound(),
+            "note" => new NoteSound(0, 1),
             "xp_collect" => new XpCollectSound(),
-            "xp_levelup" => new XpLevelUpSound(),
+            "xp_levelup" => new XpLevelUpSound(1),
             default => null,
         };
     }
