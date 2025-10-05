@@ -1,0 +1,38 @@
+# AdvancedInventory Configuration
+
+# A list of worlds where inventory separation is active.
+# In any world not in this list, the player will have their "default" inventory.
+enabled-worlds:
+  - "creative-world"
+  - "plots"
+
+# If true, inventories in the 'enabled-worlds' will ALSO be separated by gamemode (survival/creative).
+# This enables the "hybrid" mode.
+# If false, players in an enabled world will have one inventory for all gamemodes.
+use-gamemode-separation-in-worlds: true
+
+# The name of the world that holds the "default" or "global" inventory.
+# This inventory will be used in all worlds that are not listed in 'enabled-worlds'.
+default-world-name: "world"
+
+# Whether to enable separated inventories.
+# If true, players will have a different inventory based on world/gamemode rules.
+separate-inventory: true
+
+# Whether to enable separated armor inventories.
+# If true, players will have different armor based on world/gamemode rules.
+separate-armor: true
+
+# Whether to enable separated off-hand inventories.
+# If true, players will have a different off-hand item based on world/gamemode rules.
+separate-offhand: true
+
+# Whether to enable separated effects.
+# If true, players will have different effects (like speed, jump boost) based on world/gamemode rules.
+separate-effects: true
+
+# Sound to play on inventory change. Leave empty to disable.
+# Available sounds: pop, anvil_break, anvil_use, chest_open, chest_close,
+# ender_chest_open, ender_chest_close, explode, ghast_shoot, note,
+# xp_collect, xp_levelup
+sound-on-change: "pop"

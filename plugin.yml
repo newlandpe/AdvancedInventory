@@ -1,0 +1,5 @@
+name: AdvancedInventory
+version: 1.0.0
+main: ChernegaSergiy\AdvancedInventory\Main
+api: 4.0.0
+author: ChernegaSergiy
