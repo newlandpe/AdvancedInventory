@@ -57,8 +57,8 @@ class PlayerListener implements Listener {
             return;
         }
         $player = $entity;
-        $fromWorld = $event->getOrigin()->getWorld()->getFolderName();
-        $toWorld = $event->getTarget()->getWorld()->getFolderName();
+        $fromWorld = $event->getFrom()->getWorld()->getFolderName();
+        $toWorld = $event->getTo()->getWorld()->getFolderName();
 
         if ($fromWorld === $toWorld) {
             return;
