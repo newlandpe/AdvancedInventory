@@ -69,10 +69,6 @@ Contributions are welcome and appreciated! Here's how you can contribute:
 
 Please make sure to update tests as appropriate and adhere to the existing coding style.
 
-### Support
-
-If you encounter any issues or have questions about the AdvancedInventory plugin, please open an issue on the [Issues](https://github.com/newlandpe/AdvancedInventory/issues) page of this repository.
-
 ## License
 
 This project is licensed under the CSSM Unlimited License v2.0 (CSSM-ULv2). Please note that this is a custom license. See the [LICENSE](LICENSE) file for details.
